@@ -1,0 +1,59 @@
+ALEXE ADELINA MARIA - 312CC
+TEMA2 - SDA
+
+In rezolvarea temei am implementat urmatoarele functii:
+
+initS:
+Initializeaza o structura de tip structs pentru a stoca informatii despre rute.
+Aloca memoria necesara pentru campurile structurii.
+
+initL: Initializeaza o lista de rute pentru un oras dat. Aloca memorie pentru
+prima ruta si stabileste orasul de plecare.
+
+addRoute: Adauga o ruta noua in lista de rute pentru un oras dat. Aloca memorie
+pentru o noua ruta si actualizeaza legaturile intre orasul de plecare si
+destinatie.
+
+initG: Initializeaza un graf cu un numar dat de orase. Aloca memorie pentru
+listele de adiacentă ale fiecarui oras.
+
+oneYear: Simuleaza un an de degradare si reparatii a rutelor in graf.
+Calculeaza gradul de degradare pentru fiecare tronson de ruta si aplica
+reparatii acolo unde este necesar.
+
+initG2: Initializeaza un graf pentru optiunea 2, cu un numar dat de orase
+si rute intre acestea. Aloca memorie pentru lista de adiacenta a grafului.
+
+addG2: Adauga o ruta in graf. Actualizeaza lista de adiacenta cu informatiile
+despre o noua ruta.
+
+compareCosts: Functie de comparatie pentru sortarea rutelor în functia Kruskal.
+Compara costurile intre doua rute pentru a le sorta crescator.
+
+find: Gaseste setul (grupul de orase conectate) in care se afla orasul i.
+
+findRank: Gaseste rangul (numarul de orase din set) pentru doua seturi si
+actualizeaza conexiunile intre ele în functie de rang.
+
+kruskal: Implementeaza algoritmul lui Kruskal pentru gasirea celui mai mic
+arbore de acoperire intr-un graf. Selecteaza un numar maxim de rute si le scrie
+in fisierul de iesire.
+
+getCityIndex: Gaseste indexul unui oras în lista de orase. Adauga orasul in
+lista daca nu exista deja si returneaza indexul sau.
+
+grade: Calculeaza media gradelor de degradare intre doua orase.
+
+freeS: Elibereaza memoria alocata pentru o structura de tip structs.
+
+freeL: Elibereaza memoria alocata pentru lista de rute a unui oras.
+
+freeG: Elibereaza memoria alocata pentru graful rutelor.
+
+printG: Printeaza informatiile despre o ruta intre doua orase în fisierul de iesire.
+
+In programul principal (main), functiile sunt utilizate pentru citirea datelor
+din fisier, simularea degradarii rutelor, calculul arborelui de acoperire minim si
+scrierea rezultatelor în fisierul de iesire. Folosind aceste functii, programul
+gestioneaza si proceseaza datele in mod eficient pentru a obtine rezultatele
+dorite.
